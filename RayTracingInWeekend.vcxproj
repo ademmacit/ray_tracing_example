@@ -84,8 +84,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\Proj\opengl\Opengl includes libs headers\64bit target\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Proj\opengl\Opengl includes libs headers\64bit target\libs vs2019 64bıt;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\include;$(IncludePath)</LibraryPath>
     <TargetName>Tez_projesi</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
