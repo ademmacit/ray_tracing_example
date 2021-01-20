@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="out">
+      <UniqueIdentifier>{66877b72-f511-4908-8866-4f9e4a53e8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{f99eb4e6-2658-404a-9622-d258ba9384fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl\imgui">
+      <UniqueIdentifier>{157d8954-8a46-4fe8-9e1b-3ff069da9863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stbImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_files\ImGui\imgui.cpp">
+      <Filter>opengl\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_files\ImGui\imgui_demo.cpp">
+      <Filter>opengl\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_files\ImGui\imgui_draw.cpp">
+      <Filter>opengl\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_files\ImGui\imgui_impl_glfw.cpp">
+      <Filter>opengl\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_files\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>opengl\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_files\ImGui\imgui_widgets.cpp">
+      <Filter>opengl\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtweekend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>out</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>out</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiWrapper.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imconfig.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imgui.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imgui_impl_glfw.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imgui_impl_opengl3.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imgui_internal.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imstb_rectpack.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imstb_textedit.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_files\ImGui\imstb_truetype.h">
+      <Filter>opengl\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="opengl_files\default_shaders\fragmentOrtho.glsl">
+      <Filter>opengl</Filter>
+    </None>
+    <None Include="opengl_files\default_shaders\vertexOrtho.glsl">
+      <Filter>opengl</Filter>
+    </None>
+    <None Include="opengl_files\pixel_shaders\pixelFragment.glsl">
+      <Filter>opengl</Filter>
+    </None>
+    <None Include="opengl_files\pixel_shaders\pixelVertex.glsl">
+      <Filter>opengl</Filter>
+    </None>
+    <None Include="opengl_files\pixel_shaders\lastStablepixel.glsl">
+      <Filter>opengl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="opengl_files\ImGui\INCLUDE EXISTING FILES THESE IN THE PROJECT.txt">
+      <Filter>opengl\imgui</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
