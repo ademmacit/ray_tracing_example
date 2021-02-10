@@ -36,7 +36,6 @@ _deps
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
