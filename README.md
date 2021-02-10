@@ -1,4 +1,5 @@
 Basic ray tracing app made by following ray tracing in a weekend book by Peter Shirley. (https://raytracing.github.io/books/RayTracingInOneWeekend.html) 
+libs are for x86 builds.
 
 Sources used :
 
